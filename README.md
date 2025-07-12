@@ -1,4 +1,3 @@
-# Cyclistic-Bike-Share-Analysis
 # Cyclistic Bike-Share Data Analysis: Converting Casual Riders to Annual Members
 
 ## 💡 Project Overview
