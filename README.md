@@ -27,12 +27,12 @@ This project analyzes Cyclistic's historical bike trip data from 2019 and 2020 t
 | `to_station_name_2019`      | `end_station_name_2020`     | Name of ending station.              | `nvarchar` |
 | `membership_type_2019`      | `membership_type_2020`      | Type of membership (Casual/Member).  | `nvarchar` |
 | `ride_duration_2019[hh:mm:ss]` | `trip_length(hh:mm:ss)_2020` | Length of each bike trip.            | `time`     |
-| `day_trip_started_(2019)`   | `start_time_day_(2020)`     | Day of the week trip started.        | `varchar`  |
-| `start_time_month_(2019)`   | `start_time_month_(2020)`   | Month of the year trip started.      | `varchar`  |
+| `day_trip_started_2019`   | `start_time_day_2020`     | Day of the week trip started.        | `varchar`  |
+| `start_time_month_2019`   | `start_time_month_2020`   | Month of the year trip started.      | `varchar`  |
 | `start_trip_time_2019`      | `trip_start_time_2020`      | Hour of the day the trip started.    | `varchar`  |
 | `membership_gender_2019`    | N/A                         | Gender of each cyclist (2019 only).  | `nvarchar` |
-| `birthyear(2019_cyclists)`  | N/A                         | Birth year of each cyclist (2019 only). | `smallint` |
-| N/A                         | `rideable_type_(2020)`      | Type of bike used (2020 only).       | `nvarchar` |
+| `birthyear_2019_cyclists`  | N/A                         | Birth year of each cyclist (2019 only). | `smallint` |
+| N/A                         | `rideable_type_2020`      | Type of bike used (2020 only).       | `nvarchar` |
 
 ## 🛠️ Tools Used
 
