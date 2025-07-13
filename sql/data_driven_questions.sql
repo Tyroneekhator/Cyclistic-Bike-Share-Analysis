@@ -1,4 +1,5 @@
 -- SQL Queries and Result Templates for Cyclistic Bike-Share Data Analysis
+-- All SQL queries are in the Microsoft SQL Server syntax
 
 -- =======================================================================================================================
 -- SECTION: DATA-DRIVEN QUESTIONS AND SQL QUERIES
@@ -12,22 +13,20 @@
 
 -- SQL Code Snippet (for 2019):
 SELECT
-    COUNT(trip_id_2019) AS TotalTrips_2019
+    COUNT(trip_id_2019) AS Total_Trips_2019
 FROM
     Cyclistic_trips_2019;
 
 /*
 --- RESULT TEMPLATE for Question 1 (2019) ---
-[Paste your 2019 query result here, e.g., as a Markdown table or raw text]
-Example:
-TotalTrips_2019
--------------
-1000000
+Total_Trips_2019
+-----------------
+365069
 */
 
 -- SQL Code Snippet (for 2020):
 SELECT
-    COUNT(ride_id_2020) AS TotalTrips_2020
+    COUNT(ride_id_2020) AS Total_Trips_2020
 FROM
     Cyclistic_trips_2020;
 
